@@ -48,9 +48,9 @@ for (let sz of osszesLetezoSzelveny) {
 
 let osszesLetezoSzelvenyCount = osszesLetezoSzelveny.length;
 
-console.log(osszesLetezoSzelvenyCount / nullasTalalatok);
-console.log(osszesLetezoSzelvenyCount / egyesTalalatok);
-console.log(osszesLetezoSzelvenyCount / kettesTalalatok);
-console.log(osszesLetezoSzelvenyCount / harmasTalalatok);
-console.log(osszesLetezoSzelvenyCount / negyesTalalatok);
-console.log(osszesLetezoSzelvenyCount / otosTalalatok);
+console.log(`Nullás: ${osszesLetezoSzelvenyCount / nullasTalalatok}`);
+console.log(`Egyes: ${osszesLetezoSzelvenyCount / egyesTalalatok}`);
+console.log(`Kettes: ${osszesLetezoSzelvenyCount / kettesTalalatok}`);
+console.log(`Hármas: ${osszesLetezoSzelvenyCount / harmasTalalatok}`);
+console.log(`Négyes: ${osszesLetezoSzelvenyCount / negyesTalalatok}`);
+console.log(`Ötös: ${osszesLetezoSzelvenyCount / otosTalalatok}`);
